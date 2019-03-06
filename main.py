@@ -7,7 +7,7 @@ def hello_world():
   return 'Sugans test python service!'
 
 @app.route('/home')
-def hello_world():
+def hello():
   return 'Test2!'
 
 if __name__ == '__main__':
